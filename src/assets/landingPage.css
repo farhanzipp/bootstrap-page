@@ -1,0 +1,47 @@
+.landing-container {
+    padding: 6rem;
+}
+
+.hero-wrapper {
+    background-image: url('./kotakode.gif');
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 100%;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+.total-wrapper {
+    margin-top: 5rem;
+}
+
+.total-box {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+}
+
+@media screen (min-width: 768px) {
+    .text-wrapper {
+        width: 100%;
+        text-align: left;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+    
+}
+
+@media screen (min-width: 1024px) {
+    .text-wrapper {
+        padding-right: 6rem;
+        background-size: 50%;
+    }
+    
+}
