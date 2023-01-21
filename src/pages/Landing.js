@@ -1,18 +1,13 @@
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
 import Hero from '../components/Hero'
+import Why from '../components/Why'
 
 const Landing = () => {
   return (
     <div>
-        <section id='section1' className=''>
-          
-            <Hero />
-          
-              
-            
-          
-        </section>
+      <Hero />
+      <Why />
+
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import Navigation from './components/Navigation';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import ProductPage from './pages/ProductPage';
 import Landing from './pages/Landing';
-import About from './pages/About';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         <Navigation />
         <Routes>
           <Route exact path='/' element={<Landing />}/>
-          <Route exact path='/home' element={<Home />}/>
-          <Route exact path='/about' element={<About />}/>
+          <Route exact path='/about' element={<AboutPage />}/>
+          <Route exact path='/product' element={<ProductPage />}/>
         </Routes>
       </Router>
       

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/landingPage.css'
+import '../assets/LandingPage.css'
 import { Button, Container, Card } from 'react-bootstrap'
 
 const Hero = () => {
