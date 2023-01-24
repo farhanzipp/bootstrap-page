@@ -59,7 +59,7 @@
 }
 
 .total-box {
-    padding: 10px 20px;
+    padding: 10px;
     width: 12rem;
     margin: auto;
 }
@@ -71,7 +71,7 @@
 
 .why-card-text {
     width: 15rem !important;
-    margin-top: 2rem;
+    margin: 2rem auto 0 auto;
 }
 .why-img {
     width: 10rem;
@@ -106,27 +106,43 @@
     .why-content-item {
         display: flex;
         flex-direction: row-reverse;
+        
     }
 
     .why-header {
         width: 30% !important;
         text-align: left;
+        margin-top: 1rem;
+    }
+
+    .why-description {
+        font-size: 20px;
     }
 
     .why-contents {
         width: 70% !important;
     }
 
+    .why-left, .why-right {
+        padding: 0px !important;
+    }
+
     .why-card {
+        border-width: 1px !important;
         flex-direction: row !important;
+        align-items: center;
         text-align: left;
-        width: 100% !important;
+        margin: 1.5rem 0;
+    }
+    .why-card-text {
+        margin: 0px;
     }
 
     .why-img {
         width: 5rem;
         height: 5rem;
-        margin: 0 auto;
+        float: left;
+        margin: 1.5rem;
     }
 }
 
@@ -137,5 +153,45 @@
     .hero-title {
         font-size: 48px;
         line-height: 56px;
+    }
+
+    /* WHY SECTION */
+    .why-container {
+        width: 90% !important;
+    }
+    .why-contents {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .why-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .why-card {
+        height: 100%;
+    }
+    
+    .porto {
+        flex-direction: column !important;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .cat3 {
+        width: 10rem;
+        height: 10rem;
+
+    }
+
+    .text3 {
+        width: 100% !important;
+    }
+
+    .text3 > h1 {
+        font-size: 24px;
+        font-weight: 600;
     }
 }
