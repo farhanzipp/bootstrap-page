@@ -9,7 +9,7 @@ const Why = () => {
   return (
     <div>
         <Container fluid className='mt-5 why-container'>
-          <Card className=''>
+          <Card className='' bg='success'>
             <Card.Body className='text-center why-content-item'>
               <Container className='why-header'>
                 <h1 className='hero-title'>Mengapa perlu menggunakan <br />Kotakode?</h1>
